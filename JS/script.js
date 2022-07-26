@@ -44,7 +44,7 @@ console.log("Listo!") */
 
 
 if(((nombreIngresado !="") && (nombreIngresado == "EMA")) || (nombreIngresado =="ema")){
- alert("Hola Ema"); 
+ alert("Hola Ema");
 }else{
  alert("Error: Ingresar nombre valido");
 } */
@@ -62,9 +62,9 @@ for(let i = 0 ; i <= numero ; i++){
     if(i == 10){
         break;
     }
-    
+
     /* nombreIngresado = prompt("Ingrese su nombre:")
-    alert("Bienvenido " + nombreIngresado + "." + "\nSu turno es el N:" + i) 
+    alert("Bienvenido " + nombreIngresado + "." + "\nSu turno es el N:" + i)
 } */
 
 /* alert("Nos quedamos sin turnos por hoy") */
@@ -122,15 +122,15 @@ saludar() */
 
 
 
-function suma(num1, num2){
-    return num1 + num2 
+/* function suma(num1, num2){
+    return num1 + num2
 }
 
 function mensaje(resultado){
     console.log(resultado)
 }
 
-mensaje('Bienvenidos al mundo de las sumas')
+mensaje('Bienvenidos al mundo de las sumas') */
 
 /* suma(2, 6)
 suma(8, 24) */
@@ -138,5 +138,88 @@ suma(8, 24) */
 /* let numeroA = parseInt(prompt("Ingresa el primer numero:"))
 let numeroB = parseInt(prompt("Ingresa el segundo numero:")) */
 
-let numeroTotal = suma(2, 3)
-mensaje(numeroTotal)
+/* let numeroTotal = suma(2, 3)
+mensaje(numeroTotal) */
+
+/* let productoA = {
+    nombre: "Mesa",
+    precio: 1000,
+    stock: 10
+} */
+
+
+/* function Producto(nombre, precio, stock){
+    this.nombre = nombre
+    this.precio = precio
+    this.stock = stock
+}
+
+const productoB = new Producto("Silla", 500, 100)
+const productoC = new Producto("Lampara", 100, 1000)
+const productoD = new Producto("Lapices", 5, 10000)
+
+console.log(productoB)
+console.log(productoA) */
+
+
+
+/* let nombre = prompt("Ingrese su nombre: ") */
+//           0     1     2     3      4       5       6    7      8
+/* let lista = [5, "Coder", 80, true, "House", "Coder", 80, true, "House"]
+
+lista.splice(5, 1)
+lista.splice(2, 1) */
+
+
+/* lista.push(nombre)
+lista.unshift("Nuevo elemento") */
+
+/* for(let i = 0; i < lista.length; i++){
+    console.log(lista[i])
+} */
+
+/* function porCadaUno(arr, fn) {
+    for (const el of arr) {
+        fn(el)
+    }
+}
+*/
+/* let total = 0
+
+function acumular(num){
+    total =+ num
+} */
+
+/* function sumar(a, b){
+    return a + b
+}
+let total = sumar(3, 8) + sumar(4 , 5)
+
+console.log(total) */
+
+//console.log(sumar(4 , 5))
+
+/* const numeros = [1, 2, 3, 4, 5, 6]
+
+porCadaUno(numeros, console.log)
+
+porCadaUno(numeros, (num) => { total =+ num })
+
+numeros.forEach( (num) => { total =+ num }) */
+
+/* function porCadaUno(numeros, console.log) {
+    for (const elemento of numeros) {
+        console.log(elemento)
+    }
+} */
+
+/* const cursos = [
+    {nombre: 'Javascript', precio: 15000},
+    {nombre: 'ReactJS', precio: 22000},
+    {nombre: 'AngularJS', precio: 22000},
+    {nombre: 'Desarrollo Web', precio: 16000},
+   ]
+
+const resultado = cursos.filter((el) => el.precio < 20000)
+
+console.log(resultado) */
