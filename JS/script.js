@@ -223,3 +223,87 @@ numeros.forEach( (num) => { total =+ num }) */
 const resultado = cursos.filter((el) => el.precio < 20000)
 
 console.log(resultado) */
+
+/* let titulo = document.getElementById("titulo")
+
+console.log(titulo)
+
+let paises = document.getElementsByClassName("paises")
+
+console.log(paises)
+
+let paisesTag = document.getElementsByTagName("li")
+
+titulo.innerText = "Chau Coders!"
+
+paises[2].innerText = "EU"
+
+let contenedor = document.getElementById("contenedor")
+
+contenedor.innerHTML = '<h4>Bienvenidos</h4><span>Como estan?</span>'
+
+contenedor.className = "changedContainer"
+
+let nuevoPais = document.createElement("li")
+
+nuevoPais.innerText = "MX"
+nuevoPais.className = "paises"
+
+let lista = document.getElementById("lista")
+
+lista.append(nuevoPais)
+
+let subtitulo = document.getElementById("subtitulo")
+
+subtitulo.remove() */
+
+/* let boton = document.getElementById("boton1") */
+
+/* boton.addEventListener("click", clickHandler)
+
+function clickHandler(){
+    console.log("Click!")
+} */
+
+/* boton.addEventListener("click", () => console.log("Click!")) */
+
+/* boton.addEventListener("keydown", () => console.log("Click!")) */
+
+/* boton.onclick = () => console.log("Click!") */
+
+/* let input = document.getElementById("nombre")
+
+input.addEventListener("input", () => console.log(input.value)) */
+
+let formulario = document.getElementById("formulario")
+
+formulario.addEventListener("submit", validateForm)
+
+function validateForm(event){
+    event.preventDefault()
+
+    let form = event.target
+
+    console.log(form[0].value)
+    console.log(form[1].value)
+
+    console.log("Enviado!")
+}
+
+/* let boton = document.getElementById("boton1")
+
+boton.addEventListener("click", clickHandler)
+
+function clickHandler(){
+
+    let container = document.getElementById("listaMensajes")
+
+    container.innerHTML = ""
+
+    let mensaje = document.createElement("h2")
+    mensaje.innerText = "Su mensaje ha sido enviado!"
+
+    container.append(mensaje)
+
+} */
+
